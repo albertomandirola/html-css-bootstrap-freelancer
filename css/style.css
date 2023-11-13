@@ -27,10 +27,7 @@ header{
 
 
 .card-content{
-    background-color: lightcoral;
-    height: 250px;
-    border: 1px dashed black;
-    border-radius: 5px;
+    
 }
 
 .content-form{
@@ -39,17 +36,16 @@ header{
 }
 
 .top-fot{
-    background-color: blue;
+    background-color: #3A546D;
 }
 
 .bottom-fot{
-    background-color: rgb(6, 6, 70);
+    background-color: #2C3E50;
 }
 
 .content-top-fot{
-    background-color: grey;
-    border: 1px dashed black;
-    height: 100px;
+    text-align: center;
+    
 }
 
 .content-bottom-fot{
@@ -71,7 +67,7 @@ header{
     top: calc(50% - 1px);
     width: 50%;
     content: '';
-    Background-color: rgb(1, 126, 1);
+    Background-color: black;
     height: 3px;
 }
   
@@ -81,7 +77,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    color: rgb(1, 126, 1);
+    font-size: 1.5rem;
     background-color: white;
   }
+
+.p-facebook{
+    padding: 0.5rem 0.75rem ;
+}
