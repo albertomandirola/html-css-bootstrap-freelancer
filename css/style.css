@@ -6,12 +6,12 @@
 
 header{
     height: 75px;
-    background-color: darkblue;
+    background-color: #2C3E50;
 }
-.content-header{
-    background-color: lightblue;
-    border: 1px dashed black;
-    height: 50px;
+.content-header a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
 }
 
 .jumbo , .about{
@@ -24,10 +24,7 @@ header{
     border: 1px dashed black;
 }
 
-.content-title{
-    height: 50px;
-    border: 1px dashed black;
-}
+
 
 .card-content{
     background-color: lightcoral;
@@ -60,3 +57,31 @@ header{
     border: 1px dashed black;
     height: 75px;
 }
+
+.content-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.content-wrap::before {
+    position: absolute;
+    top: calc(50% - 1px);
+    width: 50%;
+    content: '';
+    Background-color: rgb(1, 126, 1);
+    height: 3px;
+}
+  
+  .star {
+    padding: 0 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(1, 126, 1);
+    background-color: white;
+  }
