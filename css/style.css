@@ -26,14 +26,6 @@ header{
 
 
 
-.card-content{
-    
-}
-
-.content-form{
-    height: 300px;
-    background-color: green;
-}
 
 .top-fot{
     background-color: #3A546D;
@@ -44,15 +36,10 @@ header{
 }
 
 .content-top-fot{
-    text-align: center;
-    
+    text-align: center; 
 }
 
-.content-bottom-fot{
-    background-color: grey;
-    border: 1px dashed black;
-    height: 75px;
-}
+
 
 .content-wrap {
     position: relative;
