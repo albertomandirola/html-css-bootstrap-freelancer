@@ -24,7 +24,10 @@ header{
     border: 1px dashed black;
 }
 
-
+.container-small{
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 .top-fot{
