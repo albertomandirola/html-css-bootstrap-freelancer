@@ -1,3 +1,62 @@
 *{
-   
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+    height: 75px;
+    background-color: darkblue;
+}
+.content-header{
+    background-color: lightblue;
+    border: 1px dashed black;
+    height: 50px;
+}
+
+.jumbo , .about{
+    background-color: aquamarine;
+}
+
+.content-jumbo{
+    height: 250px;
+    background-color: rgb(0, 169, 112);
+    border: 1px dashed black;
+}
+
+.content-title{
+    height: 50px;
+    border: 1px dashed black;
+}
+
+.card-content{
+    background-color: lightcoral;
+    height: 250px;
+    border: 1px dashed black;
+    border-radius: 5px;
+}
+
+.content-form{
+    height: 300px;
+    background-color: green;
+}
+
+.top-fot{
+    background-color: blue;
+}
+
+.bottom-fot{
+    background-color: rgb(6, 6, 70);
+}
+
+.content-top-fot{
+    background-color: grey;
+    border: 1px dashed black;
+    height: 100px;
+}
+
+.content-bottom-fot{
+    background-color: grey;
+    border: 1px dashed black;
+    height: 75px;
 }
