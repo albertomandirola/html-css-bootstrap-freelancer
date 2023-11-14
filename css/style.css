@@ -4,29 +4,41 @@
    box-sizing: border-box;
 }
 
-header{
-    height: 75px;
-    background-color: #2C3E50;
-}
-header a{
-    text-decoration: none;
-    padding: 5px;
-    color: white;
-}
-
-.jumbo , .about{
-    background-color: #1ABC9C;
-}
-
-.jumbo img{
-    width: 200px;
-}
+/* COMMON */
 
 .container-small{
     width: 80%;
     margin: 0 auto;
 }
 
+/* HEADER */
+
+header{
+    height: 75px;
+    background-color: #2C3E50;
+}
+
+header a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+/* JUMBO */
+
+.jumbo img{
+    width: 200px;
+}
+
+.jumbo .content-wrap::before , .about .content-wrap::before {
+    Background-color: white;
+}
+
+/* BACKGROUND */
+
+.jumbo , .about{
+    background-color: #1ABC9C;
+}
 
 .top-fot{
     background-color: #3A546D;
@@ -40,7 +52,11 @@ header a{
     text-align: center; 
 }
 
+.bg-white{
+    background-color: white;
+}
 
+/* ICON STAR */
 
 .content-wrap {
     position: relative;
@@ -58,32 +74,23 @@ header a{
     height: 3px;
 }
   
-  .star {
+.star {
     padding: 0 10px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-  }
+}
+
+/* MODELLING */
 
 .p-facebook{
     padding: 0.5rem 0.75rem ;
 }
 
-.bg-white{
-    background-color: white;
-}
 
-.color-invert{
-    filter: invert();
-}
-
-.jumbo .content-wrap::before , .about .content-wrap::before {
-    position: absolute;
-    top: calc(50% - 1px);
-    width: 50%;
-    content: '';
-    Background-color: white;
-    height: 3px;
+/* HOOVER EFFECT */
+.model-form:focus{
+    outline: none;
 }
